@@ -3,8 +3,6 @@ import { forwardRef, HTMLAttributes } from "react";
 
 import { cn } from "@/lib/utils";
 
-interface ParagraphProps {}
-
 const headingVariants = cva(
   "text-black dark:text-white text-center lg:text-left font-extrabold tracking-tighter ",
   {
